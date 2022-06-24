@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+.container {
+
+   background-color: red;
+
+   position: relative;
+
+   width: 100%;
+
+   padding-top: 56.25%; /* 16:9 화면비율 */
+
+}
+
+
+.hz {
+
+   position:  absolute;
+
+   top: 0;
+
+   left: 0;
+
+   bottom: 0;
+
+   right: 0;
+
+   text-align: center;
+
+   font-size: 20px;
+
+   color: white;
+
+}
+
+</style>
+    <title>Book</title>
+    
+    <link rel="stylesheet" href="./site.css" media="(min-width:600px)"></link>
+</head>
+<body>
+    
+    <div id="page">
+        <header>
+            <div id="logo">
+                <a href="site.html">HOME</a>
+                <img src="logo.png" alt="Logo" style="position:absolute; width:70px; height:70px; top:0px; left:0px;">
+            </div>
+
+            <div id="top_menu">
+                <a href="site.html">HOME</a> | 
+                <a href="login.html">LOGIN</a> |
+                <a href="signup.html">SIGN UP</a> |
+                <a href="mypage.html">MY PAGE</a>
+            </div>
+
+            <div style="float:right; margin-top:63px;">
+                <input type="text" placeholder="검색어 입력" >
+                <button >검색 </button> 
+            </div>
+            
+            <nav>
+                <ul>
+                    <li><a href="book.html">BOOK</a></li>
+                    <li><a href="bookreport.html">BOOK REPORT</a></li>
+                    <li><a href="monthbook.html">MONTHLY BOOK</a></li>
+                </ul>
+            </nav>
+        </header>
+ 
+        <article id="content">
+            <section id="main">
+                <img src="main.png" alt="main img" style="width: 800px; height: 605px;" >
+            </section>
+        </article>
+ 
+        <footer>
+            <img src="address.png" alt="address" >
+        </footer>
+ 
+    </div>
+</body>
+</html>

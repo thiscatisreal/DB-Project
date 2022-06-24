@@ -1,0 +1,35 @@
+<?php
+    include "/user_info.php";
+?>
+<!DOCTYPE html>
+<html>
+  <form action="member_ok.php" method="POST" class="joinForm" onsubmit="DoJoinForm__submit(this); return false;">
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="./signup.css"></link>
+      </head>
+      <header>
+        <div id = "logo">
+            <img src = "logo.PNG" alt = "Logo">
+        </div>
+    </header>
+    <h2>SIGN UP</h2>
+    <div class="textForm">
+      <input name="loginId" type="text" class="id" placeholder="아이디">
+      </input>
+    </div>
+    <div class="textForm">
+      <input name="loginPw" type="password" class="pw" placeholder="비밀번호">
+    </div>
+    <div class="textForm">
+      <input name="loginPwConfirm" type="password" class="pw" placeholder="비밀번호 확인">
+    </div>
+    <div class="textForm">
+      <input name="name" type="password" class="name" placeholder="이름">
+    </div>
+    <div class="textForm">
+      <input name="email" type="text" class="email" placeholder="이메일">
+    </div>
+    <input type="submit" class="btn" value="J O I N" />
+  </form>
+</html>
